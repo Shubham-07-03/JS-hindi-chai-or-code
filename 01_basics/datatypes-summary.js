@@ -54,10 +54,10 @@ const isLoggedIn = false
 const outsideTemp = null 
 let userEmail;
 
-const id = symbol('123')
-const anotherId = symbol('123')
+// const id = symbol('123')
+// const anotherId = symbol('123')
 
-console.log(id === anotherId);
+// console.log(id === anotherId);
 
 const bigNumber = 342358735692n
 
@@ -80,7 +80,45 @@ const myFunction = function(){
     console.log("Hello world");
 }
 
-console.log(typeof )
+// console.log(typeof )
 
 
 // https://262.ecma-international.org/5.1/#sec-11.4.3
+
+
+
+
+
+// ++++++++++++++++++++++++++++++++++++++++++++++++++
+
+
+
+ //  M e m o r y  
+
+// Stack memory used in [PREMITIVE DATATYPES]
+//    --> getting copy
+
+// Heap memory used in [NON-PRIMITIVE DATATYPES]
+//    --> getting Refrence orignal value ka 
+
+
+
+let myYoutubename = "thisisunique"
+
+let anothername = myYoutubename
+anothername = "chaiorcode"
+
+console.log(myYoutubename);// thisisunique
+console.log(anothername); // chaiorcode
+
+let userOne = {
+      email: "user@google.com",
+      upi: "user@ybl"
+}
+
+let userTwo = userOne
+
+userTwo.email = "shubham@google.com"
+
+console.log(userOne.email); //  shubham@google.com
+console.log(userTwo.email); //  shubham@google.com
