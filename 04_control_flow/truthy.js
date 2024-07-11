@@ -42,11 +42,10 @@
 // }
 
 
-const emptyObj = {}
-
-if (Object.keys(emptyObj).length === 0) {
-    console.log("object is empty"); // object is empty
-}
+// const emptyObj = {}
+// if (Object.keys(emptyObj).length === 0) {
+//     console.log("object is empty"); // object is empty
+// }
 
 /*  false == 0
     > true
@@ -54,3 +53,25 @@ if (Object.keys(emptyObj).length === 0) {
     > true
     0 = ''
     > true   */
+
+
+// Nullish Coalescing Operator (??): null undefined
+
+ // let val;
+ // // val1 = 5 ?? 10               // 5
+ // // val1 = null ?? 5             // 5
+ // // val1 = undefined ?? 5        // 5
+ // // val1 = null ?? 15 ?? 10      // 15
+ // // val1 = null ?? undefined     // undefined
+ // val1 = undefined ?? null ?? 11  // 11
+
+ // console.log(val1);
+
+ 
+// ++++++ Ternary Operator ++++++
+
+//  condition ? true : false
+
+ const iceTeaPrice = 100
+ iceTeaPrice <= 80 ? console.log("less than 80") : console.log("more than 80");
+// more than 80 
