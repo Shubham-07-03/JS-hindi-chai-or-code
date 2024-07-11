@@ -6,7 +6,7 @@
     
 // }
 // 2<=2; 3 != 2
-// <, >, <=, >=, ==, !=, ===, !==
+// <, >, <=, >=, ==, !=, ===, !== ; === ye value ke sath type v check krta hai
 
 
 
@@ -35,18 +35,11 @@
 
 
 
-
-
 // const temperature = 41
-
 // if (temperature === 41 ){
-
 //     console.log("less than 50");// less than 50
-
 // } else {
-
 // console.log("temperature is greater than 50");
-
 // }
 // console.log("Execute"); // Execute
 
@@ -123,8 +116,8 @@
 
 // const UserloggedIn = true
 // const debitCard = true
-
-// if (UserloggedIn && debitCard && 2==3){
+/* AND -> && => its mean sari condition true honi chahiye */
+// if (UserloggedIn && debitCard && 2==3){ 
 //     console.log("allow to buy course"); //nothing to print 
 // }
 
@@ -138,7 +131,7 @@ const loggedInFromEmail = true
 if (UserloggedIn && debitCard && 2==3){
     console.log("allow to buy course");
 }
-
+/*  OR -> || => ek v true ho chl jayega */
 if (loggedInFromGoogle || loggedInFromEmail) {
     console.log("user logged in"); // user logged in
 }
