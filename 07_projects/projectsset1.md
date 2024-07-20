@@ -32,12 +32,9 @@ buttons.forEach(function (button) {
 }); 
 ```
 
-
-
-
 ## project 2 BMI Calculator
 
-```
+```javascript
 const form = document.querySelector('form');
 // this usecase will give you empty
 // const height = parseInt(document.querySelector('#height').value)
@@ -66,11 +63,12 @@ form.addEventListener('submit', function(e){
     }
 });
 
+
 ```
 
 ## project 3 digital clock
 
-```
+```javascript
 const clock = document.getElementById('clock');
 // const clock = document.querySelector('#clock')
 
